@@ -1,0 +1,47 @@
+
+.confirmation{
+	/*max-width: 600px;*/
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+}
+
+
+#gif{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 3%;
+	align-self: center;
+    	img{
+        	height: 300px;
+        	width: auto;
+        	margin-bottom: 1%;
+        	border-radius: 2px;
+        	object-fit: cover;
+        	object-position: center;
+        }
+}
+
+#container{
+
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	align-items: center;
+}
+
+input{
+	padding: 10px;
+  	background: #880e4f;
+  	width: 15%;
+  	cursor: pointer
+  	color: white;
+  	border-radius: 5px;
+  	font-size: 1em;
+  	color: white;
+  	border: 0px;
+}
